@@ -4,8 +4,8 @@ const Product = require('../models/products');
 
 const getAllProucts = async (req, res) => {
 
-    const myData = await Product.find({});
-    res.status(200).json({ myData });
+    const Products = await Product.find({});
+    res.status(200).json({ Products });
 
 }
 
