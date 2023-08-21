@@ -13,6 +13,10 @@ const productSchema = new mongoose.Schema({
     "body": {
         type: String,
         required: true
+    },
+    "app": {
+        type: Boolean,
+        required: true
     }
 });
 
